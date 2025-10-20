@@ -4,7 +4,7 @@
   "info": {
     "singularName": "about",
     "pluralName": "abouts",
-    "displayName": "About",
+    "displayName": "posts",
     "description": "Write about yourself and the content you create"
   },
   "options": {
@@ -12,12 +12,14 @@
   },
   "pluginOptions": {},
   "attributes": {
-    "title": {
+    "post": {
       "type": "string"
     },
-    "blocks": {
-      "type": "dynamiczone",
-      "components": ["shared.media", "shared.quote", "shared.rich-text", "shared.slider"]
+    "projectName": {
+      "type": "string"
+    },
+    "clientName": {
+      "type": "string"
     }
   }
 }
